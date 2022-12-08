@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CheckOut</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body >
+	<h2 style="color: white" align="center">Checkout details</h2>
+	
+	
+		
+
+		<div style="margin-left:300px ">
+		<form method="POST" class="container" >
+			<div class="con">
+			<label for="username" class="labelscolor"> Username:</label><br>
+			<input type="text" name="username" id="username" placeholder="Enter your username" maxlength="20" size="100" required=""><br>
+
+			<label for="email" class="labelscolor" >Email:</label><br>
+			<input type="email" name="email" id="email" placeholder="example@example.com" size="99" required=""><br>
+
+			<label for="password" class="labelscolor" >Password:</label><br>
+			<input type="password" name="password" id="password" placeholder="Enter your 6 digit password" size="100"required="" maxlength="6"><br>
+
+			<label for="quanitity" class="labelscolor" >Quantity:</label><br>
+			<input type="numbers" name="quantity" id="quantity" placeholder="Enter 1 digit number" size="100"required="" maxlength="1"><br>
+				
+			
+
+			<label for="address" class="labelscolor">Your Shipping Addresss:</label><br>
+			<textarea id="address" name="address" rows="4" cols="23" placeholder="Describe yourself here...">
+  			</textarea><br>
+			
+			
+			<label for="city" class="labelscolor" >Choose your City:</label><br>
+			<SELECT name="city" id="city"  placeholder="Your city">
+				<option>Lahore</option>
+				<option>Gujranwala</option>
+				<option>Karachi</option>
+				<option>Islamabad</option>
+			</SELECT><br>
+
+			<label for="Submit" class="labelscolor">I accept the Terms and Conditions</label><br>
+			<input type="Submit" name="Place Order" value="Confirm Checkout">
+		</div>
+		</form>
+	
+
+</body>
+</html>

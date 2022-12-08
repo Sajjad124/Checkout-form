@@ -1,0 +1,51 @@
+body{
+	background-color: #696e6b;
+}
+.container {
+  background-color: #161461;
+   width: 800px;
+  align-content: center;
+ 
+}
+
+
+.labelscolor {
+	color: white;  
+}
+#username{
+	size: 500px;
+	padding: 7px;
+}
+}
+#email{
+	size: 500px;
+	padding: 10px;
+}
+#email{
+	size: 500px;
+	padding: 10px;
+}
+
+#password{
+	size: 500px;
+	padding: 7px;
+}
+#quantity{
+	size: 500px;
+	padding: 7px;
+}
+#username{
+	size: 500px;
+	padding: 7px;
+}
+#city{
+	size: 500px;
+	padding: 7px;
+}
+
+
+
+
+.con{
+	margin-left: 30px;
+}
